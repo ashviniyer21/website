@@ -144,34 +144,37 @@
             </td>
             <td style="padding:10px;width:75%;vertical-align:top">
               <a href="https://web.ics.purdue.edu/~lunabot/"><h3 style="margin-bottom:0;">Purdue Lunabotics</h3></a>
-
               <br>
-              Our team competes in the <a href="https://www.nasa.gov/learning-resources/lunabotics-challenge/">NASA Lunabotics Competition</a> yearly. In the 2023 season, we placed 6th overall and 3rd in autonomy among all competing teams.
+              During my team on the team, I was the Software Lead, where I led a group of 15+ students to implement the following:
               <br>
-              <br>
-              During my team on the team, I was the Software Lead, where I led efforts on
               <br>1. Utilizing SLAM to map out surrounding objects / obstacles
               <br>2. Performing dynamic motion planning (using D*) and robot control (using MPC)
               <br>3. Automating subsystems for picking up / depositing objects (using sensor feedback + PID)
-              <br>3. Handling communication between processors and hardware motor / sensor drivers
-              <br>4. Creating an entire behavior state machine to handle transitions between different tasks
+              <br>4. Handling communication between processors and hardware motor / sensor drivers
+              <br>5. Creating an entire behavior state machine to handle transitions between different tasks
+              <br>
+              <br>
+              Our team competes in the <a href="https://www.nasa.gov/learning-resources/lunabotics-challenge/">NASA Lunabotics Competition</a> yearly. In the 2023 season, we placed 6th overall and 3rd in autonomy among all competing teams.
             </td>
           </tr>
 
-<!--           <tr>
+          <tr>
             <td style="padding:10px;width:25%;vertical-align:middle">
               <div class="one">
                 <img src='images/bcsac.png' width="150">
               </div>
             </td>
             <td style="padding:10px;width:75%;vertical-align:top">
-              <a href="https://drive.google.com/file/d/1mtaaVqVZ7F9lroKtU3ahmlWS8L0bk610/view?usp=sharing"><h3 style="margin-bottom:0;">Improving Behavior Cloning With Reinforcement Learning</h3></a>
+              <a href="data/ILRL.pdf"><h3 style="margin-bottom:0;">Combining Reinforcement Learning and Imitation Learning</h3></a>
 
               <br>
-              I worked with <a href="https://www.raghavauppuluri.dev"> Raghava Uppuluri</a> on utilizing Reinforcement Learning to help improve Beahvior Cloning Policies.
-              Specifically, we looked at improving <a href="https://waymo.com/research/imitation-is-not-enough-robustifying-imitation-with-reinforcement-learning/">BC-SAC</a>, a method developed by Waymo. We tried applying their method to a high-dimensional robot arm, and also improved their method by modifying how they integrate BC and RL together.
+              I worked on combining Reinforcement Learning and Imitation Learning policies for hand manipulation tasks. Specifically, I implemented and modified Waymo's BC-SAC <a href="https://waymo.com/research/imitation-is-not-enough-robustifying-imitation-with-reinforcement-learning/">paper</a>.
+              Modifications that improved results include using dynamic weighting between IL and RL policies and artificially boosting demonstrations with positive policy outputs.
+              <br>
+              <br>
+              Thanks to <a href="https://www.raghavauppuluri.dev"> Raghava Uppuluri</a> for help on this project!
             </td>
-          </tr> -->
+          </tr>
 
           <tr>
             <td style="padding:10px;width:25%;vertical-align:middle">
@@ -198,6 +201,24 @@
 
               <br>
               I joined the Autonomous Robotics Club at Purdue my freshmen year, giving me my first exposure to robotics in college. Here, I tried implementing inverse kinematics and visual servoing for a robotic arm to be able to pick and place chess pieces.
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/drone-video.png' width="150">
+              </div>
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:top">
+              <h3 style="margin-bottom:0;">Drone Video</h3>
+
+              <br>
+
+              On the Drone Video team, our task was to closely follow a ground rover with a drone equipped with a camera. Specifically, I helped improve the tracking by implementing a Kalman Filter on top of single-frame detections for prediction of the rover, which was used to guide the drone's path planning.
+              <br>
+              <br>
+              While on the team, we participated in the <a href="https://www.purdue.edu/undergrad-research/conferences/fall/index.php"> Purdue Research Exposition</a> in Fall 2022, where we placed 2nd in the College of Science.
             </td>
           </tr>
           </tbody></table>
